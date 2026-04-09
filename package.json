@@ -6,7 +6,6 @@
         "build": "cross-env ELEVENTY_ENV=prod eleventy",
         "serve": "cross-env ELEVENTY_ENV=dev eleventy --serve",
         "build-ghpages": "npx @11ty/eleventy --pathprefix=/kitt.blog/"
-
     },
     "dependencies": {
         "@11ty/eleventy": "^3.1.5",
@@ -18,6 +17,7 @@
         "eleventy-plugin-time-to-read": "^1.3.0",
         "markdown-it": "^14.1.1",
         "markdown-it-anchor": "^8.6.7",
+        "netlify-plugin-cache": "^1.0.3",
         "reveal.js": "^5.0.1",
         "sass": "^1.69.5"
     }
