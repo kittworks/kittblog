@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:base="https://kitt.blog">
+  <title>kitt blog</title>
+  <subtitle>kitt blog</subtitle>
+  <link href="https://kitt/feed.xml" rel="self"/>
+  <link href="https://kitt.blog"/>
+  <updated>2026-04-06T00:00:00Z</updated>
+  <id>https://kitt/</id>
+  <author>
+    <name>kitt</name>
+    <email>kittemailcontact@gmail.com</email>
+  </author>
+  <entry>
+    <title>post title</title>
+<summary>post description</summary><link href="https://kitt.blog/posts/post-title/"/>    <updated>2026-04-06T00:00:00Z</updated>
+    <id>https://kitt.blog/posts/post-title/</id>
+    <content type="html"><![CDATA[<h2 id="header" tabindex="-1">Header</h2>
+<p>nothing here</p>
+<h2 id="further-reading" tabindex="-1">further reading</h2>
+<ul>
+<li>nothing</li>
+</ul>
+]]></content>
+<media:content url="https://kitt.blog/img/posts/" type="image/jpeg" expression="full"></media:content>            
+  </entry>
+</feed>
