@@ -5,7 +5,7 @@
     "scripts": {
         "build": "cross-env ELEVENTY_ENV=prod eleventy",
         "serve": "cross-env ELEVENTY_ENV=dev eleventy --serve",
-        "build-ghpages": "npx @11ty/eleventy --pathprefix=/kittblog/"
+        "build-ghpages": "npx @11ty/eleventy --pathprefix=/kitt.blog/"
 
     },
     "dependencies": {
