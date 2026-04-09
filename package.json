@@ -20,5 +20,9 @@
         "netlify-plugin-cache": "^1.0.3",
         "reveal.js": "^5.0.1",
         "sass": "^1.69.5"
+    },
+    "devDependencies": {
+        "@types/node": "^25.5.2",
+        "typescript": "^6.0.2"
     }
 }
