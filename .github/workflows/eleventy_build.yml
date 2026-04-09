@@ -1,16 +1,24 @@
 name: Eleventy Build
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build_deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Dependencies
+        run: npm ci
       - name: Build
-        uses: TartanLlama/actions-eleventy@master
+        run: npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_dir: _site 
+          publish_dir: www
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
