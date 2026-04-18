@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:base="https://kitt.blog">
+  <title>kitt blog</title>
+  <subtitle>kitt blog</subtitle>
+  <link href="https://kitt/feed.xml" rel="self"/>
+  <link href="https://kitt.blog"/>
+  <updated>2026-04-06T00:00:00Z</updated>
+  <id>https://kitt/</id>
+  <author>
+    <name>kitt</name>
+    <email>kittemailcontact@gmail.com</email>
+  </author>
+  <entry>
+    <title>kitt.blog is back</title>
+<summary>welcome back kitt blog</summary><link href="https://kitt.blog/posts/kitt-blog-is-back/"/>    <updated>2026-04-06T00:00:00Z</updated>
+    <id>https://kitt.blog/posts/kitt-blog-is-back/</id>
+    <content type="html"><![CDATA[<p>i temporarily took down the site last month</p>
+<p>it's back now, and this time it will be focused almost entirely on writing, rather than art.</p>
+<p>i'm trying to get better at writing.  i'll likely upload essays i've done for classes here.</p>
+<p>i will also likely reupload a selection of past writings here too</p>
+]]></content>
+<media:content url="https://kitt.blog/img/posts/kitt-blog/kittblog.png" type="image/jpeg" expression="full"></media:content>            
+  </entry>
+</feed>
